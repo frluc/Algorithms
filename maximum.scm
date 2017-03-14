@@ -1,4 +1,4 @@
-;; linear maximum vector value search O(n)
+;; unsorted vector maximum value search O(n)
 
 (define (vector-max V)
   (let ((max (vector-ref V 0))
